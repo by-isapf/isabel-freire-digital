@@ -46,7 +46,7 @@ export const Route = createRootRoute({
           "Isabel Freire, portfólio, Tecnologia da Informação, UFERSA, pesquisa, iniciação científica, desenvolvimento de software, programação",
       },
       { name: "author", content: "Isabel Freire" },
-      { name: "theme-color", content: "#3b82f6" },
+      { name: "theme-color", content: "#6b3a52" },
       { property: "og:title", content: SITE_TITLE },
       { property: "og:description", content: SITE_DESC },
       { property: "og:type", content: "website" },
