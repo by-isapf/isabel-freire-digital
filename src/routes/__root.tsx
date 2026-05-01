@@ -1,4 +1,3 @@
-import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import { ThemeProvider } from "@/lib/theme";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -96,7 +95,6 @@ function RootComponent() {
           <Outlet />
         </div>
         <Footer />
-        <Toaster />
       </div>
     </ThemeProvider>
   );
